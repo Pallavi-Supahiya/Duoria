@@ -1,0 +1,64 @@
+@import "../../styles/index.scss";
+
+.test{
+    padding-top: 44px;
+    background-color: #0B0D17;
+    padding-bottom: 102px;
+
+
+    &-part1{
+        color: #fff;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    }
+    &-part2{
+        width: 100%;
+        padding-top: 50px;
+        .test-slider{
+            .slick-list{
+                overflow: visible;
+            }
+            .slick-track{
+                display: flex;
+                flex-direction: row;
+            }
+            .slick-slide{
+                .oddTest{
+                transition: all 0.5s ease-in-out;
+                animation-name: odd-images;
+                animation-duration: 4s;
+                animation-delay: 2s;
+                }
+            }
+            .slider-content{
+                margin-right: 40px;
+                max-width: calc(100%-60px);
+                img{
+                    width: fit-content;
+                }
+                .oddTest{
+                    transition: all 10s ease-in-out;
+                    animation: odd-images 0.5s infinite ;
+                    animation-duration: 10s;
+                    animation-delay: 2s;
+                }
+                @keyframes odd-images {
+                    0% {  transform: translate(0px, 20px) scale(0.95);}
+                    25% { transform: none;}
+                    50% {  transform: translate(0px, 20px) scale(0.95);}
+                    75% { transform: none;}
+                   100% {  transform: translate(0px, 20px) scale(0.95);}
+                    
+                  
+                    
+                }
+                
+            }
+
+
+
+        }
+    }
+}

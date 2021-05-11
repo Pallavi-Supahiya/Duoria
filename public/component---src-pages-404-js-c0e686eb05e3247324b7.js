@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[883],{9616:function(t,e,s){"use strict";s.r(e);var a=s(7294);e.default=function(){return a.createElement("p",null,"You just hit a route that doesn't exist... the sadness.")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-c0e686eb05e3247324b7.js.map

@@ -1,0 +1,16 @@
+@import "../../styles/index.scss";
+
+.icons{
+    padding-left: 165px;
+    padding-top: 44px;
+    
+    padding-right: 121px;
+
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 29px;
+        border-bottom: 0.5px solid #CACADA;
+    }
+
+}

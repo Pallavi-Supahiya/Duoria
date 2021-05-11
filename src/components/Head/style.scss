@@ -1,0 +1,37 @@
+@import "../../styles/index.scss";
+
+.header{
+    padding-left: 165px;
+    padding-right: 140px;
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+&-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-links{
+        text-decoration: none;
+        color: #18191F;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-right: 25px;
+
+    }
+    .nav-button{
+       
+        border: none;
+    background: transparent;
+    }
+}
+
+
+}

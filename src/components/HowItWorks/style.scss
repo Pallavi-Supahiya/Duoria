@@ -1,0 +1,69 @@
+@import "../../styles/index.scss";
+
+
+.work{
+padding-top: 48px;
+    padding-left: 165px;
+    padding-right: 165px;
+    &-container{
+        text-align: center;
+
+
+        .heading2{
+            padding-bottom: 21px;
+          
+        }
+        .p1{
+            padding-bottom: 21px;
+            margin: 0 auto;
+        }
+        .p2{
+            padding-bottom: 21px;
+            margin: 0 auto;
+        }
+        .p3{
+            color:  #969BAB;
+            
+            margin: 0 auto;
+        }
+    }
+    .work-part2{
+        display: flex;
+        padding-top: 72px;
+        justify-content: center;
+
+.work-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    max-width: 255px;
+    margin-right: 20px;
+    
+}
+        .card-img{
+            display: flex;
+            
+            &-bg{
+            background-image: url("../../images/HowItWorks/circle.svg");
+            width: 72px;
+            height: 72px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+            }
+        }
+        .card-line{
+         
+            padding-left: 16px;
+        }
+        .card-icon{
+            max-width: 30px;
+            max-height: 30px;
+        }
+        .card-heading{
+            padding-top: 16px;
+    padding-bottom: 4px;
+        }
+    }
+}

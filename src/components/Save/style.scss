@@ -1,0 +1,52 @@
+@import "../../styles/index.scss";
+
+.save{
+    padding-left: 165px;
+    padding-right: 124px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color:  #F7F7F7;
+&-container{
+    display: flex;
+    justify-content: space-between;
+
+    .save-div1{
+        max-width: 389px;
+    }
+
+    .save-div2{
+        display: flex;
+
+
+
+        .div2-innerdiv{
+            display: flex;
+            flex-direction: column;
+            max-width: 165px;
+            margin-right: 60px;
+
+
+            img{
+                width: 38px;
+                height: 38px;
+              
+            }
+            .icon-detail{
+                padding-top: 10px;
+                font-weight: 800;
+                font-size: 24.3px;
+                line-height: 30px;
+            }
+        }
+        .div2-innerdiv:last-of-type{
+            margin: 0;
+        }
+    }
+
+}
+
+
+
+
+
+}

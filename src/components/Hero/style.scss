@@ -1,0 +1,31 @@
+@import "../../styles/index.scss";
+
+.hero{
+    background: linear-gradient(
+    90deg
+    , #fff 50%, #FFFAEC 47%);
+
+
+&-container{
+    display: flex;
+    padding-left: 165px;
+    padding-right: 84px;
+    justify-content: space-between;
+}
+&-content{
+    padding-top: 192px;
+    width: 40%;
+    .heading1{
+        padding-bottom: 16px;
+    }
+    .content1{
+        padding-bottom: 32px;
+    }
+}
+
+&-image{
+        padding-top: 125px;
+        padding-bottom: 125px;
+       
+    }
+}

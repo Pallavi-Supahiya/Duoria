@@ -1,0 +1,41 @@
+@import "../../styles/index.scss";
+
+.merchants {
+  padding-left: 165px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  .merchants-container {
+    .heading3 {
+      padding-bottom: 48px;
+    }
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 22px;
+      row-gap: 30px;
+    }
+    .about {
+      padding-top: 20px;
+      padding-bottom: 9px;
+      color: #969bab;
+    }
+
+    .merchant-end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .merchant-tagline {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 73px;
+        padding-bottom: 25px;
+      }
+      .merchant-button {
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+}
