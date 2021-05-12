@@ -37,6 +37,9 @@
                 max-width: calc(100%-60px);
                 img{
                     width: fit-content;
+                    @media only screen and (max-width: 1240px) {
+                   width: 98%;
+                    }
                 }
                 .oddTest{
                     transition: all 10s ease-in-out;
@@ -60,5 +63,6 @@
 
 
         }
+        
     }
 }

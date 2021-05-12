@@ -5,6 +5,10 @@
 padding-top: 48px;
     padding-left: 165px;
     padding-right: 165px;
+    @media only screen and (max-width: 1240px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     &-container{
         text-align: center;
 
@@ -31,6 +35,10 @@ padding-top: 48px;
         display: flex;
         padding-top: 72px;
         justify-content: center;
+        @media only screen and (max-width: 990px) {
+        flex-direction: column;
+    align-items: center;
+        }
 
 .work-card{
     display: flex;
@@ -39,10 +47,17 @@ padding-top: 48px;
     text-align: left;
     max-width: 255px;
     margin-right: 20px;
+    @media only screen and (max-width: 990px) {
+        align-items: center;
+        min-width: 100px;
+    }
     
 }
         .card-img{
             display: flex;
+            @media only screen and (max-width: 990px) {
+                justify-content: center;
+            }
             
             &-bg{
             background-image: url("../../images/HowItWorks/circle.svg");
@@ -56,6 +71,9 @@ padding-top: 48px;
         .card-line{
          
             padding-left: 16px;
+            @media only screen and (max-width: 990px) {
+                display: none;
+            }
         }
         .card-icon{
             max-width: 30px;
@@ -64,6 +82,16 @@ padding-top: 48px;
         .card-heading{
             padding-top: 16px;
     padding-bottom: 4px;
+        }
+        .card-content{
+            @media only screen and (max-width: 990px) {
+                line-height: 24px;
+            }
+            @media only screen and (max-width: 990px) {
+            
+                text-align: center;
+    margin-bottom: 20px;
+            }
         }
     }
 }

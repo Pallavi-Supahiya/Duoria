@@ -2,6 +2,7 @@ import React from 'react'
 
 
 import "./style.scss"
+import {Button} from "../Button"
 
 
 import pic1 from "../../images/Merchants/pic1.png"
@@ -26,14 +27,16 @@ const Merchants = () => {
         { image: pic8, about: "ACTIVITY", name: "Business Name"},
     ]
     return (
-        <div className="merchants">
+        <div className="merchants" id="Merchants">
             <div className="merchants-container">
                 <h2 className="heading3">Merchants</h2>
                 <div className="cards-container">
                     {data.map(element=>{
                         return(
                             <div className="merchant-image">
+                                <div className="image-div">
                                 <img src={element.image} alt="image"></img>
+                                </div>
                                 <h4 className="about">{element.about}</h4>
                                 <h3 className="name">{element.name}</h3>
                             </div>
@@ -45,7 +48,7 @@ const Merchants = () => {
                 <p className="merchant-tagline" >
                 Don’t see a merchant that you like? Request one here.
                 </p>
-                 <button className="merchant-button"><img src={MerchantButton} alt="button" /></button>
+                 <Button big="true" secondary="true" className="merchant-button">Request merchant</Button>
                 </div>
             </div>
             

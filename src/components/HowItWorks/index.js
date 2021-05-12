@@ -43,7 +43,7 @@ let data=[
 
 
     return (
-        <div className="work">
+        <div className="work" id="HowItWorks" >
             <div className="work-container">
 
                 <div className="work-part1">

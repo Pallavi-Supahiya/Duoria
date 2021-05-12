@@ -18,6 +18,11 @@
     margin-bottom: 20px;
     &-text{
         margin-right: 24px; 
+        text-decoration: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
     }
     &-text:last-of-type{
         margin:0;
@@ -27,6 +32,10 @@
     display: flex;
     img{
         margin-right: 24px;
+        
+    }
+    img:hover{
+        cursor: pointer;
     }
     img:last-of-type{
         margin: 0;

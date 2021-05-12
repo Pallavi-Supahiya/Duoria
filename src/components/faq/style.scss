@@ -28,7 +28,6 @@
 .question-container {
   display: flex;
   flex-direction: row;
-  align-items: space-between;
   justify-content: space-between;
   font-weight: 600;
   font-size: 24px;
@@ -36,6 +35,7 @@
   text-align: left;
   cursor: pointer;
   padding-bottom: 21px;
+  align-items: center;
 }
 
 .arrow {

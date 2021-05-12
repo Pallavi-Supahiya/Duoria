@@ -14,8 +14,14 @@
     width: 300px;
     position: relative;
     flex-direction: row;
+    @media only screen and (max-width: 780px) {
+        display: none;
+    }
     img{
         width: fit-content;
+        @media only screen and (max-width: 1240px) {
+            width: 40%;
+        }
     }
     &-image1{
         width: fit-content;
@@ -43,9 +49,17 @@
         padding-top: 27px;
         padding-bottom: 40px;
         text-align: center;
+        @media only screen and (max-width: 990px) {
+
+        font-size: 38px;
+    line-height: 48px;
+    padding-top: 17px;
+    padding-bottom: 22px;
+        }
     }
-    &-button{
-        width: fit-content;
+    .join-div2-button{
+        padding-left: 63px;
+    padding-right: 63px;
     }
 }
 &-div3{
@@ -53,8 +67,14 @@
     width: 300px;
     flex-direction: row;
     position: relative;
+    @media only screen and (max-width: 780px) {
+        display: none;
+    }
     img{
         width: fit-content;
+        @media only screen and (max-width: 1240px) {
+            width: 40%;
+        }
     }
     &-image4{top: 0;
         position: absolute;
@@ -64,7 +84,11 @@
         top: 90px;}
     &-image6{bottom: 0;
         position: absolute;
-        left: 70px;}
+        left: 70px;
+        @media only screen and (max-width: 1240px) {
+            left: 0;
+        }}
+
 }
 
 

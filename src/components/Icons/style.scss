@@ -5,12 +5,20 @@
     padding-top: 44px;
     
     padding-right: 121px;
+    @media only screen and (max-width: 990px) {
+        padding-left: 100px;
+        padding-right: 21px;
+    }
 
     &-container{
         display: flex;
         justify-content: space-between;
         padding-bottom: 29px;
         border-bottom: 0.5px solid #CACADA;
+        @media only screen and (max-width: 840px) {
+        display: block;
+        margin-right: 79px;
+        }
     }
 
 }

@@ -36,7 +36,7 @@ let data = [
         image: test4
     },
 ]
-
+data=[...data, ...data, ...data, ...data, ...data]
 
 const Testimonial = () => {
 
@@ -51,23 +51,27 @@ const Testimonial = () => {
     useTransform: true,
     dots: false,
     infinite: true,
-    speed: 17000,
     slidesToShow: 3.5,
-    slidesToScroll: 4,
+    slidesToScroll:0.0399 ,
+    
     autoplay: true,
-    autoplayspeed: 0,
+    
+    autoplaySpeed:0.999,
+    
+    
+   
     centerMode: false,
     cssEase: "linear",
     centerPadding: "-10%",
     arrows: false,
-  
     slide: "div",
+   
   }
 
 
 
     return (
-        <div className="test">
+        <div className="test" id="About">
             <div className="test-container">
                 <div className="test-part1">
                     <img src={quote} alt="quote" />

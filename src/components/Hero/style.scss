@@ -4,6 +4,11 @@
     background: linear-gradient(
     90deg
     , #fff 50%, #FFFAEC 47%);
+    @media only screen and (max-width: 780px) {
+    background: linear-gradient(
+180deg
+, #fff 40%, #FFFAEC 47%);
+    }
 
 
 &-container{
@@ -11,21 +16,63 @@
     padding-left: 165px;
     padding-right: 84px;
     justify-content: space-between;
+    @media only screen and (max-width: 1240px) {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+    @media only screen and (max-width: 780px) {
+        display: flex;
+    flex-direction: column;
+    }
 }
 &-content{
     padding-top: 192px;
     width: 40%;
+    @media only screen and (max-width: 990px) {
+        max-width: 390px;
+        margin-right: 40px;
+        padding-top: 162px;
+    }
+    @media only screen and (max-width: 870px) {
+        padding-top: 102px;
+    }
+    @media only screen and (max-width: 780px) {
+        width: 100%;
+        align-self: center;
+    }
     .heading1{
         padding-bottom: 16px;
+        @media only screen and (max-width: 830px) {
+        padding-bottom: 10px;
+        font-size: 40px;
+        line-height: 48px;
+        }
+    
     }
     .content1{
         padding-bottom: 32px;
+        @media only screen and (max-width: 830px) {
+            font-size: 18px;
+            line-height: 27px;
+            padding-bottom: 28px;
+            }
     }
 }
 
 &-image{
         padding-top: 125px;
         padding-bottom: 125px;
+       img{
+            @media only screen and (max-width: 1240px) {
+        width: 90%;
+        float: right;
+        padding-right: 20px;
+        
+        }
+        @media only screen and (max-width: 780px) {
+        float: none;
+        }
+    }
        
     }
 }

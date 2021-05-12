@@ -1,7 +1,7 @@
 import React from 'react'
 import headericon from "../../images/Header/Group 22.svg";
-import headerbutton from "../../images/Header/Medium.svg";
 import {Link} from "gatsby"
+import {Button} from "../Button"
 
 import "../Head/style.scss"
 const Head = () => {
@@ -11,10 +11,10 @@ const Head = () => {
                 <img src={headericon} alt="logo" />
             </div>
             <div className="header-navigation">
-                <Link to="#" className="nav-links" >HOW IT WORKS</Link>
-                <Link to="#" className="nav-links" >MERCHANTS</Link>
-                <Link to="#" className="nav-links" >ABOUT US</Link>
-               <button  className="nav-button"><img src={headerbutton} alt="button" /></button>
+                <Link to="#HowItWorks" className="nav-links"  >HOW IT WORKS</Link>
+                <Link to="#Merchants" className="nav-links" >MERCHANTS</Link>
+                <Link to="#About" className="nav-links" >ABOUT US</Link>
+               <Button  className="nav-button" secondary="true">Group Buy</Button>
 
             </div>
             
