@@ -9,6 +9,9 @@
         padding-left: 100px;
         padding-right: 21px;
     }
+    @media only screen and (max-width: 780px) {
+        display: none;
+    }
 
     &-container{
         display: flex;

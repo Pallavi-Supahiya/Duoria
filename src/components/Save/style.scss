@@ -14,16 +14,32 @@
     padding-left: 20px;
     padding-right: 20px;
     }
-&-container{
+    @media only screen and (max-width: 540px) {
+padding-left: 0;
+padding-right: 0;
+    }
+    &-container{
     display: flex;
     justify-content: space-between;
 
+    @media only screen and (max-width: 540px) {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
     .save-div1{
         max-width: 389px;
+        @media only screen and (max-width: 540px) {
+            align-self: center;
+        }
         .heading4{
             @media only screen and (max-width: 990px) {
                 font-size: 45px;
     line-height: 55px;
+            }
+            @media only screen and (max-width: 540px) {
+        text-align: center;
             }
         }
     }
@@ -66,4 +82,3 @@
 
 
 
-}

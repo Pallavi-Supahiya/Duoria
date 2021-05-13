@@ -12,6 +12,10 @@
   .merchants-container {
     .heading3 {
       padding-bottom: 48px;
+      @media only screen and (max-width: 540px) {
+        text-align: center;
+        margin-left: -100px;
+      }
     }
     .cards-container {
       display: flex;

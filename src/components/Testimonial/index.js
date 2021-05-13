@@ -53,19 +53,31 @@ const Testimonial = () => {
     infinite: true,
     slidesToShow: 3.5,
     slidesToScroll:0.0399 ,
-    
     autoplay: true,
-    
     autoplaySpeed:0.999,
-    
-    
-   
     centerMode: false,
     cssEase: "linear",
     centerPadding: "-10%",
     arrows: false,
     slide: "div",
-   
+
+    
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+              slidesToShow: 1.5,
+              centerPadding: 0,
+            },
+        },
+        {
+            breakpoint: 380,
+            settings: {
+              slidesToShow: 1,
+              centerPadding: 0,
+            },
+        }
+    ]
   }
 
 
